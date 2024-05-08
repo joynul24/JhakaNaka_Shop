@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500;600&display=swap');
 
 /* common share styles */
 *{
@@ -8,6 +8,16 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    padding: 20px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
 }
 
 /* header section styles */
@@ -32,7 +42,9 @@ header{
     width: 90px;
 }
 .nav-container p{
-    font-size: 25px
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
 }
 .special{
     color: #e996d0;
@@ -55,4 +67,74 @@ header{
     background-color: tomato;
     padding: 15px 20px;
     border-radius: 5px;
+}
+
+/* main section */
+
+/* banner section syles */
+.banner{
+    max-width: 1250px;
+    margin: 40px auto;
+    /* border: 2px solid tomato; */
+    border-radius: 20px;
+    min-height: 500px;
+    display: flex;
+    background-color: rgb(240, 239, 239);
+}
+.banner-content{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-content, h1, p, span{
+    font-size: 45px;
+}
+.banner-title{
+    background: linear-gradient(to top,#e996d0,#9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+}
+.collection{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+.banner-icons a{
+    margin-right: 15px;
+}
+.fa-brands {
+    font-size: 45px;
+}
+.banner-img{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.discount{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 50%;
+    left: 70%;
 }
