@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    .header-section{
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+    .items-content{
+        flex-direction: column;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        gap: 20px; 
+    }
+}
