@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500;600&display=swap');
 
 /* common share styles */
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: blueviolet;
     padding: 20px 15px;
     color: #fff;
@@ -19,51 +20,62 @@ body{
     border-radius: 10px;
     border: 0;
 }
+.btn-primary:hover{
+    background-color: tomato;
+}
 
 /* header section styles */
-header{
+header {
     background-color: #9376e0;
 }
-.header-section{
+
+.header-section {
     max-width: 1250px;
     /* background-color: red; */
     margin: 0 auto;
     /* border: 2px solid black; */
     display: flex;
 }
-.nav-container{
+
+.nav-container {
     /* border: 1px solid tomato; */
     min-height: 30px;
     display: flex;
     align-items: center;
     width: 50%;
 }
-.nav-container img{
+
+.nav-container img {
     width: 90px;
 }
-.nav-container p{
+
+.nav-container p {
     font-size: 30px;
     font-weight: 400;
     color: #fff;
 }
-.special{
+
+.special {
     color: #e996d0;
     font-size: 30px;
     font-weight: 900;
 }
-.items-content{
+
+.items-content {
     /* border: 2px solid green; */
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.items-content a{
+
+.items-content a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
 }
-.login-btn{
+
+.login-btn {
     background-color: tomato;
     padding: 15px 20px;
     border-radius: 5px;
@@ -72,7 +84,7 @@ header{
 /* main section */
 
 /* banner section syles */
-.banner{
+.banner {
     max-width: 1250px;
     margin: 40px auto;
     /* border: 2px solid tomato; */
@@ -81,7 +93,8 @@ header{
     display: flex;
     background-color: rgb(240, 239, 239);
 }
-.banner-content{
+
+.banner-content {
     /* border: 2px solid green; */
     width: 100%;
     display: flex;
@@ -91,39 +104,49 @@ header{
     gap: 10px;
 }
 
-.banner-content, h1, p, span{
+.banner-content,
+h1,
+p,
+span {
     font-size: 45px;
 }
-.banner-title{
-    background: linear-gradient(to top,#e996d0,#9376e0);
+
+.banner-title {
+    background: linear-gradient(to top, #e996d0, #9376e0);
     background-clip: text;
     color: transparent;
     font-size: 60px;
 }
-.collection{
+
+.collection {
     font-family: "Dancing Script", cursive;
     font-size: 50px;
 }
-.banner-icons a{
+
+.banner-icons a {
     margin-right: 15px;
 }
+
 .fa-brands {
     font-size: 45px;
 }
-.banner-img{
+
+.banner-img {
     /* border: 2px solid black; */
     width: 100%;
     padding: 30px;
     position: relative;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    
+
 }
-.discount{
+
+.discount {
     width: 150px;
     height: 150px;
     background-color: red;
@@ -137,4 +160,66 @@ header{
     position: absolute;
     bottom: 50%;
     left: 70%;
+}
+
+/* products section styles */
+.products-section h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.products-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.grid-container{
+    /* border: 2px solid red; */
+    /* min-width: 400px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.single-card{
+    /* border: 2px solid blue; */
+    width: 100%;
+    background-color: rgb(248, 224, 224);
+    padding: 20px;
+    border-radius: 10px;
+}
+.single-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.card-icons a{
+    margin-left: 10px;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card-description p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card-description h5{
+    margin-top: 10px;
+}
+.card-btn{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+}
+.card-btn:hover{
+    background-color: green;
+    cursor: pointer;
 }
