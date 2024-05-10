@@ -20,7 +20,8 @@ body {
     border-radius: 10px;
     border: 0;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: tomato;
 }
 
@@ -106,7 +107,7 @@ header {
 
 .banner-content,
 h1,
-p,
+.collection,
 span {
     font-size: 45px;
 }
@@ -168,11 +169,12 @@ span {
     margin-top: 50px;
 }
 
-.products-section{
+.products-section {
     max-width: 1250px;
     margin: 0 auto;
 }
-.grid-container{
+
+.grid-container {
     /* border: 2px solid red; */
     /* min-width: 400px; */
     display: flex;
@@ -181,37 +183,43 @@ span {
     gap: 20px;
 }
 
-.single-card{
+.single-card {
     /* border: 2px solid blue; */
     width: 100%;
     background-color: rgb(248, 224, 224);
     padding: 20px;
     border-radius: 10px;
 }
-.single-card img{
+
+.single-card img {
     width: 100%;
     border-radius: 10px;
 }
-.card-icons{
+
+.card-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
-.card-icons a{
+
+.card-icons a {
     margin-left: 10px;
     background-color: azure;
     padding: 5px;
     border-radius: 5px;
 }
-.card-description p{
+
+.card-description p {
     font-size: 15px;
     margin-top: 10px;
 }
-.card-description h5{
+
+.card-description h5 {
     margin-top: 10px;
 }
-.card-btn{
+
+.card-btn {
     background-color: blueviolet;
     color: #fff;
     padding: 10px 15px;
@@ -219,7 +227,57 @@ span {
     border: 0;
     font-weight: 600;
 }
-.card-btn:hover{
+
+.card-btn:hover {
     background-color: green;
     cursor: pointer;
+}
+
+/* gallery section styles */
+.gallery-section {
+    /* border: 2px solid red; */
+    max-width: 1250px;
+    margin: 50px auto;
+}
+
+.gallery-title {
+    text-align: center;
+}
+
+.gallery-container {
+    /* border: 2px solid black; */
+    background-color: #f8daef;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.single-gallery {
+    width: 30%;
+    /* border: 2px solid blue; */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-basis: 300px;
+}
+
+.single-gallery img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+/* footer section styles */
+.footer{
+    border: 2px solid tomato;
+    background-color: #9376e0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -31,4 +31,9 @@
         flex-direction: column;
         padding: 20px;
     }
+    /* gallery section */
+    .single-gallery{
+        flex-basis: 200px;
+        margin-bottom: 10px;
+    }
 }
