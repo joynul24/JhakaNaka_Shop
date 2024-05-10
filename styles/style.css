@@ -274,7 +274,7 @@ span {
 
 /* footer section styles */
 .footer{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     background-color: #9376e0;
     height: 100px;
     display: flex;
